@@ -14,4 +14,5 @@ public interface IProductDal {
 	
 	void delete(Product product);
 	
+	Product getById(int id);
 }

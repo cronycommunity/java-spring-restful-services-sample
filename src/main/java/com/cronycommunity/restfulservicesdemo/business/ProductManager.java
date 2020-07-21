@@ -43,5 +43,10 @@ public class ProductManager implements IProductService {
 	public void delete(Product product) {
 		this.productDal.delete(product);
 	}
+
+	@Override
+	public Product getById(int id) {
+		return this.productDal.getById(id);
+	}
 	
 }
